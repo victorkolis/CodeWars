@@ -1,4 +1,12 @@
-#!/usr/bin/env python3
+# Link: https://www.codewars.com/kata/5831c204a31721e2ae000294/train/python
+# 
+# Description:
+# When provided with a String, capitalize all vowels
+# For example:
+# Input : "Hello World!"
+# Output : "HEllO WOrld!"
+# Note: Y is not a vowel in this kata.
+
 
 def swap(st):
 	vowels = 'aeiou'
@@ -11,4 +19,4 @@ def swap(st):
 	return new_word
 
 
-print(swap('victor vinicius reis de matos'))
+print(swap('victor kolis'))
